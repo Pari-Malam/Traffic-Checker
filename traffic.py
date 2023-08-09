@@ -8,9 +8,6 @@ import warnings
 from sys import stdout
 from bs4 import BeautifulSoup
 from colorama import Fore
-urllib3.disable_warnings()
-from requests.packages.urllib3.exceptions import InsecureRequestWarning
-warnings.filterwarnings("ignore", message="Failed to patch SSL settings for unverified requests (unsupported version of urllib3?)")
 
 FY = Fore.YELLOW
 FG = Fore.GREEN
